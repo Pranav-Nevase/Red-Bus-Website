@@ -1,0 +1,19 @@
+.header_img{
+    background-image: url("./assets/HomeBanner.webp");
+    background-size: cover; 
+    background-position: center;
+    height: 500px;
+    
+}
+
+.h_1{
+    max-width: 100px;
+    justify-content: center;
+    padding-left: 60px;
+    padding: 14px;
+}
+
+.h_1 h1{
+    /* max-width: 80px; */
+    
+}

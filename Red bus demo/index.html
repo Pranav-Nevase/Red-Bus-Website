@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red bus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body class="m-0">
+
+
+    <!-- Header  -->
+    <header>
+
+        <!-- Navbar -->
+
+        <nav class="bg-white flex items-center gap-8 m-0">
+
+            <!-- Logo -->
+            <div class="w-[50px] h-[50px] shrink-0 mr-10 ml-20 mt-2">
+                <a href="#">
+                    <img class="w-full h-full object-contain" src="./assets/redbus_logo.png" alt="logo">
+                </a>
+            </div>
+
+
+
+            <div class="flex w-full gap-8 m-2 justify-between">
+                <div class="flex gap-6 ">
+                    <div>
+                        <a href="#">
+                            <img class="w-[32px] h-[32px]" src="./assets/bus_logo.svg" alt="">
+                            <p class="text-red-700 text-base">Bus Ticket</p>
+                        </a>
+
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img class="w-[32px] h-[32px]" src="./assets/train_logo.svg" alt="">
+                            <p class="text-red-700 text-base">Train Ticket </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img class="w-[32px] h-[32px]" src="./assets/hotels_logo.svg" alt="">
+                            <p class="text-red-700 text-base">Hotels </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center p-2 mx-8 mr-20 my-2 gap-4">
+                    <div class="pr-6">
+                        <a class="flex items-center gap-1 " href="#">
+                            <i class="fa-solid fa-list"></i>
+                            <span class="text-base">Bookings</span>
+                        </a>
+                    </div>
+                    <div class="pr-6">
+                        <a class="flex items-center gap-1 " href="#">
+                            <i class="fa-regular fa-circle-question"></i>
+                            <span class="text-base">Help</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="flex items-center gap-1 " href="#">
+                            <i class="fa-regular fa-circle-user"></i>
+                            <span class="text-base">Account</span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- Section -->
+
+        <div>
+
+
+            <!-- Background imgae  -->
+            <div class="header_img ">
+                <div class="h_1">
+
+                    <h1
+                        class="px-16 pt-24 text-center text-5xl font-bold leading-tight text-white pt-60 w-50px  absolute ">
+                        India's No. 1 online bus ticket booking site
+                    </h1>
+                </div>
+
+                <!--  -->
+
+                <!-- Search bar -->
+
+                <div
+                    class="flex w-fit h-fit items-center justify-center m-auto rounded-2xl bg-white pt-4 pb-8 min-w-[900px] shadow-lg absolute left-1/2 -translate-x-1/2 top-[470px]">
+                    <div class="border border-black rounded-lg flex mr-2 ">
+
+                        <!-- From -->
+                        <div class="p-4 pr-10 border-r border-gray-300 self-stretch flex items-center">
+                            <i class="fa-solid fa-bus-simple pr-3"></i>
+                            <span class="block text-gray-400 ">From</span>
+
+                        </div>
+                        <!-- To -->
+                        <div class="p-4 pr-10 border-r border-gray-300 self-stretch flex items-center">
+                            <i class="fa-solid fa-bus-simple pr-3"></i>
+                            <span class="block text-gray-400">To</span>
+                        </div>
+                        <!-- Date -->
+                        <div class="p-4 pr-12 flex items-center">
+                            <i class="fa-solid fa-calendar"></i>
+                            <span class="text-gray-400 p-5">
+                                date for journey
+                            </span>
+
+                            <div class="">
+                                <button
+                                    class="px-3 py-2 bg-[#fddbd6] border border-gray-200 rounded-full text-sm font-medium">Today</button>
+                            </div>
+                            <div class="">
+                                <button
+                                    class="px-3 py-2 bg-[#fddbd6] border border-gray-200 rounded-full text-sm font-medium">Tomorrow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-black rounded-lg flex items-center p-3 ">
+                        <img class="w-[20px] h-[20px] object-contain" src="./assets/female.svg" alt="">
+                        <div class="p-3 flex flex-col">
+
+                            <span class="mt-2">Booking for women</span>
+                            <a href="#" class="text-blue-600 text-xs font-bold underline mt-1 flex">Know more</a>
+                        </div>
+
+
+
+
+                    </div>
+
+
+                    <div class="mt-4 flex justify-center">
+                        <button
+                            class="flex bg-red-500 rounded-full border border-gray-200 px-10 py-2 text-white gap-4  absolute left-1/2 top-[129px] -translate-x-1/2">
+                            <i class="fa-solid fa-magnifying-glass mt-1 "></i>
+                            Search buses
+                        </button>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </header>
+
+    <!-- main -->
+    <div class="mt-20 mx-[130px] ">
+        <div>
+            <div class="flex flex flex-row">
+                <div>
+                    <img src="./assets/newTrain.svg" alt="" class="mr-3 mt-2">
+                </div>
+                <div>
+                    <h2 class="font-bold text-2xl">
+                        Book trains for festivals
+                    </h2>
+                    <p class="text-gray-500">
+                        Book now to get confirmed ticket
+
+                    </p>
+                </div>
+            </div>
+
+            <!--  -->
+
+            <div class="bg-gray-100 my-2 rounded-2xl flex py-10 px-10 flex justify-between">
+                <div class="flex items-center justify-center">
+                    <div>
+                        <h3 class="text-xl">
+                            Get <span class="text-green-800">₹60</span> off using code <span
+                                class="text-green-800">SUPERB60</span>
+                        </h3>
+                    </div>
+
+                    <div class="ml-4 border border-red-200 rounded-lg px-10 ">
+                        <p>Old</p>
+                        <p>Dussehra</p>
+                    </div>
+
+                    <div class="ml-4 border border-red-200 rounded-lg px-10 ">
+                        <p class="px-2">Nov</p>
+                        <p>Diwali</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center mt-2">
+                    <div>
+                        <button class="bg-pink-300 px-10 py-3 rounded-3xl font-bold">
+                            Book trains now
+                        </button>
+                    </div>
+                    <div class="mt-4">
+                        <p>Authorised IRCTC partner</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--  -->
+
+    <div class="mt-10 mx-[130px] flex flex-col  ">
+
+        <div class="flex justify-between items-center">
+            <div>
+                <h2 class="text-2xl font-bold">
+                    Offers for you
+                </h2>
+            </div>
+            <div>
+                <button class="text-sm text-blue-800 underline">View more</button>
+            </div>
+        </div>
+
+        <!--  -->
+
+        <div class="flex gap-4 mt-6">
+            <div class="border py-1 px-4 rounded-xl">
+                <button>All</button>
+            </div>
+            <div class="border py-1 px-4 rounded-xl">
+                <button>Bus</button>
+            </div>
+            <div class="border py-1 px-4 rounded-xl">
+                <button>Train</button>
+            </div>
+            <div class="border py-1 px-4 rounded-xl">
+                <button>Hotel</button>
+            </div>
+        </div>
+
+        <!--  -->
+
+        <div class="mt-6 grid grid-cols-4 gap-4">
+            <div class="rounded-lg border p-4">
+                <p class="inline-block rounded-lg bg-[#635b52] px-2 py-3 text-sm font-bold text-white">Bus</p>
+                <h4 class="mt-2 font-bold">Save up to Rs 300 on bus tickets</h4>
+                <p class="text-sm">Valid till 23 Sep</p>
+                <button
+                    class="mt-4 rounded-2xl border bg-white px-6 py-2 font-semibold flex flex-inline justify-center items-center">
+                    <i class="fa-solid fa-tag my-1 mr-1"></i>
+                    FESTIVE300
+                </button>
+            </div>
+
+            <div class="rounded-lg border p-4">
+                <p class="inline-block rounded-lg bg-[#635b52] px-2 py-3 text-sm font-bold text-white">Bus</p>
+                <h4 class="mt-2 font-bold">Save up to Rs 300 on bus tickets</h4>
+                <p class="text-sm">Valid till 23 Sep</p>
+                <button
+                    class="mt-4 rounded-2xl border bg-white px-6 py-2 font-semibold flex flex-inline justify-center items-center">
+                    <i class="fa-solid fa-tag my-1 mr-1"></i>
+                    FIRST
+                </button>
+            </div>
+
+            <div class="rounded-lg border p-4">
+                <p class="inline-block rounded-lg bg-[#635b52] px-2 py-3 text-sm font-bold text-white">Bus</p>
+                <h4 class="mt-2 font-bold">Save up to Rs 300 on bus tickets</h4>
+                <p class="text-sm">Valid till 23 Sep</p>
+                <button
+                    class="mt-4 rounded-2xl border bg-white px-6 py-2 font-semibold px-6 py-2 font-semibold flex flex-inline justify-center items-center">
+                    <i class="fa-solid fa-tag my-1 mr-1"></i>
+                    BUS300
+                </button>
+            </div>
+
+            <div class="rounded-lg border p-4">
+                <p class="inline-block rounded-lg bg-[#635b52] px-2 py-3 text-sm font-bold text-white">Bus</p>
+                <h4 class="mt-2 font-bold">Save up to Rs 300 on bus tickets</h4>
+                <p class="text-sm">Valid till 23 Sep</p>
+                <button
+                    class="mt-4 rounded-2xl border bg-white px-6 py-2 font-semibold px-6 py-2 font-semibold flex flex-inline justify-center items-center">
+                    <i class="fa-solid fa-tag my-1 mr-1"></i>
+                    PRIMODAY
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  -->
+
+
+    <div class="relative bg-purple-200 flex flex-row justify-center ">
+
+
+        
+        <div class="mt-8 flex flex-row gap-1" >
+
+            <div class="bg-white w-fit border rounded-xl flex flex-col items-center">
+                <img class="w-20 h-40 object-cover rounded-xl" src="./assets/m_destination-ooty-landscape_l_400_640.avif" alt="">
+
+                <p>Ooty</p>
+
+            </div>
+        
+
+            <div class="bg-white w-fit rounded-xl flex flex-col items-center">
+                <img class="w-20 h-40 object-cover rounded-xl" src="./assets/m_destination-ooty-landscape_l_400_640.avif" alt="">
+
+                <p>Ooty</p>
+
+            </div>
+        
+
+            <div class="bg-white w-fit rounded-xl flex flex-col items-center">
+                <img class="w-20 h-40 object-cover rounded-xl" src="./assets/m_destination-ooty-landscape_l_400_640.avif" alt="">
+
+                <p>Ooty</p>
+
+            </div>
+
+            <div class="bg-white w-fit rounded-xl flex flex-col items-center">
+                <img class="w-20 h-40 object-cover rounded-xl" src="./assets/m_destination-ooty-landscape_l_400_640.avif" alt="">
+
+                <p class="">Ooty</p>
+
+            </div>
+        </div>
+        
+
+
+        <div class=" flex justify-center items-center">
+            <div>
+                <p class="text-l text-red-700">Introducing Getaways</p>
+                <h1 class="text-2xl font-bold">Hey, ready for a weekend getaway?</h1>
+                <p class="text-l text-gray-400">Handpicked destinations for you</p>
+            </div>
+
+
+
+
+            <div class="flex">
+                <button class="bg-pink-400 rounded-2xl px-6 py-1  flex items-start">
+                    Explore all
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
